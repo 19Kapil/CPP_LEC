@@ -1,7 +1,7 @@
 // q.WAP in c++ to read the record of student (name,adress,roll no.)and display using structure.
 
 #include <iostream>
-using namespace std; 
+ using namespace std; 
 
 struct student {
     char name[50];
