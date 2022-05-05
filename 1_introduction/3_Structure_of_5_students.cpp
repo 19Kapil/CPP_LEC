@@ -15,22 +15,22 @@ int main()
     // Entering the record of students.
 for (i=0;i<5;++i)
     {
-     cout<<"\nEntering the records:"<<endl;
-    cout << "\nEnter the name of student:";
+     cout<<"\nEntering the records:" << endl;
+    cout << "Enter the name of student:";
     cin >> k[i].name;
-    cout << "\nEnter the address of student:";
+    cout << "Enter the address of student:";
     cin  >> k[i].address;
-    cout << "\nEnter the roll of student:";
+    cout << "Enter the roll of student:";
     cin >> k[i].roll;
     }
 
 // Displaying the record of students:
     for (i=0;i<5;++i)
     {
-     cout << "\nDisplaying the records:"<<endl;
-    cout << "Name:\t" <<k[i].name<<endl;
-    cout << "Address:\t" <<k[i].address<<endl;
-    cout << "roll:\t" <<k[i].roll<<endl;
+     cout << "\nDisplaying the records:" <<endl;
+    cout << "Name:" <<k[i].name << endl;
+    cout << "Address:" <<k[i].address << endl;
+    cout << "roll:" <<k[i].roll << endl;
     }
     return 0;
 }
