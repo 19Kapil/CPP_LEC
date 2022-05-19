@@ -9,7 +9,7 @@ struct student
     char name[10];
     char address[15];
     char roll[15];
-} st[5];
+} k[5];
 
 int main()
 {
@@ -18,19 +18,19 @@ int main()
     {
 
         cout << "Enter name: ";
-        cin >> st[i].name;
+        cin >> k[i].name;
         cout << "Enter address: ";
-        cin >> st[i].address;
+        cin >> k[i].address;
         cout << "Enter Roll No : ";
-        cin >> st[i].roll;
+        cin >> k[i].roll;
     }
     cout << "Output" << endl;
     for (int i = 0; i < 5; i++)
     {
 
-        cout << "Name: " << st[i].name;
-        cout << "\n Address: " << st[i].address;
-        cout << "\n Roll No: " << st[i].roll;
+        cout << "Name: " << k[i].name;
+        cout << "\n Address: " << k[i].address;
+        cout << "\n Roll No: " << k[i].roll;
     }
     return 0;
 }
