@@ -23,7 +23,6 @@ for (i=0;i<5;++i)
     cout << "Enter the roll of student:";
     cin >> k[i].roll;
     }
-
 // Displaying the record of students:
     for (i=0;i<5;++i)
     {
