@@ -7,7 +7,7 @@ void normal(int a)
 }
 void refer(int b)
 {
-b=9;
+b=19;
 cout<<"the value of b is:"<<b<<endl;
 }
 int main()
