@@ -11,6 +11,6 @@ int  display(int b)
 }
 int main()
 {
-    display(2);
+    display(4);
     display(5);
 }
