@@ -1,4 +1,4 @@
-//implict type conversion.The type conversion that is done automatically done by compiler.
+//implict type conversion.The type conversion that is done automatically done by compiler..
 #include <iostream>
 using namespace std;
 int main(){
