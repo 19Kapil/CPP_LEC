@@ -12,8 +12,7 @@ int main()
 {
    cout<<sum (1,2,3)<<endl;
    cout<<sum(4);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> db33827fa4823f021c73fd192b790ee4c76f85bb
+
+
+
