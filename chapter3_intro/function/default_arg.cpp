@@ -11,7 +11,7 @@ int sum (int z=5,int y=4)
 int main()
 {
    cout<<sum (1,2,3)<<endl;
-   cout<<sum(4);
+   cout<<sum(5);
 }
 
 
