@@ -17,6 +17,7 @@ void simple_interest(float p,int t){
     cout<<"The required simple interest of given amount is :"<<simple_interest<<endl;
 }
 };
+
  int main (){
      interest amount1;
 amount1.simple_interest(45000,5);
