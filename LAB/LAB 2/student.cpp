@@ -43,6 +43,7 @@ void display()
 
 }
 };
+
 int main(){
     int n, i;
     student s[n];
