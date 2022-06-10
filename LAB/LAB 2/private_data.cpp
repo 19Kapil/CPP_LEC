@@ -1,6 +1,7 @@
 //6.	WAP to add 2 private data of two different classes.
 //[hint: use friend function] 
 
+
 #include<iostream>
 using namespace std;
 
