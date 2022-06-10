@@ -6,7 +6,7 @@ struct student {
     int roll;
     char address[30];
     
-    
+
     student Info()
     {
     struct student s1;
