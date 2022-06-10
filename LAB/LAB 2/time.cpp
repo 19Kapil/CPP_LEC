@@ -5,26 +5,26 @@ using namespace std;
 
 class Time{
     private:
-        int hour,min,sec;
+        int hour,minute,second;
     public:
         void gettime(){
             cout<<"Enter time: "<<endl;
             cout<<"\nEnter the hour: ";
             cin>>hour;
             cout<<"\nEnter minute: ";
-            cin>>min;
+            cin>>minute;
             cout<<"\nEnter second: ";
-            cin>>sec;
+            cin>>second;
         }
         void sum(Time one, Time two){
-            this -> sec = one.sec+two.sec;
-            this -> hour = one.hour+two.hour+(this -> min/60);
-            this -> min = one.min+two.min+(this -> sec/60);
-            this->min %=60;
-            this->sec %=60;
+            this -> second = one.second+two.second;
+            this -> hour = one.hour+two.hour+(this -> minute/60);
+            this -> minute = one.minute+two.minute+(this -> second/60);
+            this->minute %=60;
+            this->second %=60;
         }
         void display(){
-            cout<<"The resultant time is: "<<hour<<":"<<min<<":"<<sec<<endl;
+            cout<<"The resultant time is: "<<hour<<":"<<minute<<":"<<second<<endl;
         }
 };
 
