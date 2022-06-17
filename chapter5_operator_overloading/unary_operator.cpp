@@ -1,19 +1,33 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+
 class unary{
-   private:
-   int a,b,c;
+    private:
+        int a,b,c;
+    public:
+        unary(int x, int y, int z){
+            a=x;
+            b=y;
+            c=z;
+        }
 
-   public:
-   void getdata();
-   void operator -();
-   void display();
+        void operator - (){
+            a = -a;
+            b = -b;
+            c = -c;
+        }
 
-void getdata(int x,int y,int z)
-{
-    a = x;
-    b = y;
-    
-
-}
+        void display(){
+            cout<<"value of a: "<<a<<endl;
+            cout<<"Value of b: "<<b<<endl;
+            cout<<"value of c: "<<c<<endl;
+        }
 };
+
+int main(){
+    unary un(10,20,30);
+    un.display();
+    -un;
+    un.display();
+    return 0;
+}
