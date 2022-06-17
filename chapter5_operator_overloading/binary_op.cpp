@@ -30,6 +30,7 @@ class binary {
         cout<<"value of b: "<<b<<endl;
     }
 };
+
 int main(){
     binary bb1,bb2,bb3;
     bb1=binary(10,20);
