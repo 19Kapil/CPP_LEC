@@ -6,7 +6,7 @@ using namespace std;
 class count{
     private:
     int value;
-    public:
+    public :
     count()
     {
         value =9;

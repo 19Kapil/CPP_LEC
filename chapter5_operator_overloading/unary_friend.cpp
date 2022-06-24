@@ -7,7 +7,7 @@ class UnaryFriend{
     void showdata(){
         cout<<a<< " "<<b<<" "<<c<<endl;
     }
-    void friend operator -(UnaryFriend &u1);
+    void friend operator -(UnaryFriend &cdu1);
 };
 void operator -(UnaryFriend &u1){
     u1.a = -u1.a;
