@@ -9,7 +9,7 @@ class shape{
       width = a;
       breadth = b;
      }
-     void print(){
+     void virtual print(){
         int area;
         cout<<"shape area is: "<<area <<endl;
      }
@@ -22,7 +22,7 @@ protected:
         width=a;
         breadth = b;
  }
- void print(){
+ void virtual print(){
     cout<<"area of rectangle is: "<<(width*breadth)<<endl;
  }
  };
@@ -34,23 +34,22 @@ protected:
     width=a;
     breadth=b;
      }
-     void print(){
-        cout<<"area of trinagle is: "<<1/2*(width*breadth)<<endl;
+     void virtual print(){
+        cout<<"area of triangle is: "<<width*breadth/2<<endl;
      }
 
  };
  int main(){
 shape *shape;
 rectangle rec(10,15);
-triangle tri(8,7);
+triangle tri(4,5);
 shape = &rec;
 shape-> print();
 
 shape = &tri;
 shape->print();
 return 0;
-
- }
+}
  
 
 
