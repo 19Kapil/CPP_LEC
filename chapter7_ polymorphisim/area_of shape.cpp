@@ -49,7 +49,6 @@ shape-> print();
 shape = &tri;
 shape->print();
 return 0;
-
  }
  
 
