@@ -49,7 +49,11 @@ shape-> print();
 shape = &tri;
 shape->print();
 return 0;
+<<<<<<< HEAD:chapter7_ polymorphisim/area_of_shape.cpp
 }
+=======
+ }
+>>>>>>> fa4a6e0fcadb9d77bc23f409018b591ac7284a38:chapter7_ polymorphisim/area_of shape.cpp
  
 
 
