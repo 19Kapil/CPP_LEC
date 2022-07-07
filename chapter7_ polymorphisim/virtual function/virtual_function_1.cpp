@@ -15,7 +15,7 @@ class dog: public animal{
     {
         cout<<"dog runs"<<endl;
     }
-};
+}; 
 
 int main()
 {
