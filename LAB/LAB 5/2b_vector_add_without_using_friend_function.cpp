@@ -39,8 +39,6 @@ Vector operator + (Vector a ,Vector b )
        sum.z = b.z + a.z;
        return sum;
 }
-
-
 int main()
 {
 Vector a,b,c;
