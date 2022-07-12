@@ -24,6 +24,7 @@ class Fibonacci
     }
 
 };
+
 int main()
 {
     Fibonacci obj1;
