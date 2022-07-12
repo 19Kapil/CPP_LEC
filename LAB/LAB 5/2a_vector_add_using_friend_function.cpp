@@ -34,6 +34,7 @@ class Vector
         cout<<x<<"i + "<<y<<"j + "<<z<<"k "<<endl;
     }
 };
+
 int main()
 {
 Vector a,b,c;
