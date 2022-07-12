@@ -41,6 +41,7 @@ class rectangle : public Shape
       cout<<"The area of rectangle is "<<height*breadth<<endl;
     }
 };
+
 int main()
 {
     Triangle t;
