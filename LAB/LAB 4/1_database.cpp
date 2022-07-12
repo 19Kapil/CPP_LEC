@@ -4,7 +4,7 @@
 using namespace std ;
 class staff 
 {   
-    protected :
+    protected:
     int code ;
     char name [30] ;
     public :
@@ -23,7 +23,7 @@ class staff
 };
 class Teacher : public staff 
 {
-    protected :
+    protected:
     char subject[20];
     char publication[20];
     public :
@@ -67,7 +67,7 @@ class Officer : public staff
 };
 class Typist : public staff 
 {
-    protected :
+    protected:
     int speed ;
     void getData ()
     {    cout<<"TYPIST"<<endl;
@@ -83,7 +83,7 @@ class Typist : public staff
 };
 class Casual : public Typist
 {
-    protected :
+    protected:
     float wages;
     public:
     void getData()
@@ -102,7 +102,7 @@ class Casual : public Typist
 };
 class Regular : public Typist 
 {
-     protected :
+     protected:
     float wages ;
     public:
     void getData()
