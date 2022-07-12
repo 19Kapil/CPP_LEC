@@ -18,6 +18,7 @@ void calculateArea (float length , float breadth)
     cout<<"The area of rectangle is "<<length*breadth<<endl;
 }
 };
+
 int main ()
 {   
     area a;
