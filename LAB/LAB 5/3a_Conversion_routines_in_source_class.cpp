@@ -50,6 +50,7 @@ class Rectangular
 
     }
 };
+
 int main ()
 {
     Polar pol;
