@@ -1,5 +1,5 @@
 #include <iostream>
-#define MAX 2
+#define MAX 3
 using namespace std;
  class stack
  {
@@ -15,20 +15,22 @@ using namespace std;
 
     }
     void push(int x){
-        if (top==MAX-1){
+        if (top==MAX-1)
+           {
             throw FULL();
-        }
-            else {
+            }
+            else
+            {
             s[++top] = x;
-
-
-        }
+            }
     }
     int pop(){
-            if(top==-1){
+            if(top==-1)
+            {
                 throw EMPTY();
             }
-            else{
+            else
+            {
                 return s[top--];
             }
         }
