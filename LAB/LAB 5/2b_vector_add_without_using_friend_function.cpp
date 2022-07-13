@@ -39,8 +39,11 @@ Vector operator + (Vector a ,Vector b )
        sum.z = b.z + a.z;
        return sum;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 371084be2ef2aa1ea9a78f887597c2a0f721f87e
 int main()
 {
 Vector a,b,c;
@@ -49,4 +52,8 @@ b.getData();
 c = a + b;
 cout<<" The Sum is ";
 c.showData();
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 371084be2ef2aa1ea9a78f887597c2a0f721f87e

@@ -41,6 +41,10 @@ class rectangle : public Shape
       cout<<"The area of rectangle is "<<height*breadth<<endl;
     }
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> 371084be2ef2aa1ea9a78f887597c2a0f721f87e
 int main()
 {
     Triangle t;
@@ -49,4 +53,8 @@ int main()
     t.displayArea();
     r.getData();
     r.displayArea();
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 371084be2ef2aa1ea9a78f887597c2a0f721f87e

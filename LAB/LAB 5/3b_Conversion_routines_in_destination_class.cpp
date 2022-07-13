@@ -58,4 +58,8 @@ int main ()
     pol.getData();
     rect = pol ;
     rect.showData();
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 371084be2ef2aa1ea9a78f887597c2a0f721f87e
