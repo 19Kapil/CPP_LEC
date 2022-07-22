@@ -38,6 +38,5 @@ int main() {
     cout << endl
          << "Float results:" << endl;
     floatCalc.displayResult();
-
     return 0;
 }
